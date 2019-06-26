@@ -1,0 +1,317 @@
+fileFormatVersion: 2
+guid: 23184b5bf755e0846809b70c3cc03d7a
+timeCreated: 1560953489
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: sword-sprite-png copy_0
+    21300002: sword-sprite-png copy_1
+    21300004: sword-sprite-png copy_2
+    21300006: sword-sprite-png copy_3
+    21300008: sword-sprite-png copy_4
+    21300010: sword-sprite-png copy_5
+    21300012: sword-sprite-png copy_6
+    21300014: sword-sprite-png copy_7
+    21300016: sword-sprite-png copy_8
+    21300018: sword-sprite-png copy_9
+    21300020: sword-sprite-png copy_10
+    21300022: sword-sprite-png copy_11
+    21300024: sword-sprite-png copy_12
+    21300026: sword-sprite-png copy_13
+    21300028: sword-sprite-png copy_14
+    21300030: sword-sprite-png copy_15
+    21300032: sword-sprite-png copy_16
+    21300034: sword-sprite-png copy_17
+    21300036: sword-sprite-png copy_18
+    21300038: sword-sprite-png copy_19
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -3
+  maxTextureSize: 1024
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 128
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: sword-sprite-png copy_0
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 368
+        width: 37
+        height: 146
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - serializedVersion: 2
+      name: sword-sprite-png copy_1
+      rect:
+        serializedVersion: 2
+        x: 189
+        y: 466
+        width: 37
+        height: 146
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - serializedVersion: 2
+      name: sword-sprite-png copy_2
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 378
+        width: 42
+        height: 182
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - serializedVersion: 2
+      name: sword-sprite-png copy_3
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 187
+        width: 37
+        height: 147
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - serializedVersion: 2
+      name: sword-sprite-png copy_4
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 280
+        width: 42
+        height: 150
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - serializedVersion: 2
+      name: sword-sprite-png copy_5
+      rect:
+        serializedVersion: 2
+        x: 311
+        y: 192
+        width: 41
+        height: 140
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - serializedVersion: 2
+      name: sword-sprite-png copy_6
+      rect:
+        serializedVersion: 2
+        x: 535
+        y: 202
+        width: 49
+        height: 153
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - serializedVersion: 2
+      name: sword-sprite-png copy_7
+      rect:
+        serializedVersion: 2
+        x: 774
+        y: 203
+        width: 49
+        height: 153
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - serializedVersion: 2
+      name: sword-sprite-png copy_8
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 89
+        width: 37
+        height: 147
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - serializedVersion: 2
+      name: sword-sprite-png copy_9
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 1
+        width: 42
+        height: 151
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - serializedVersion: 2
+      name: sword-sprite-png copy_10
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 99
+        width: 42
+        height: 151
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - serializedVersion: 2
+      name: sword-sprite-png copy_11
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 95
+        width: 46
+        height: 136
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - serializedVersion: 2
+      name: sword-sprite-png copy_12
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 3
+        width: 65
+        height: 154
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - serializedVersion: 2
+      name: sword-sprite-png copy_13
+      rect:
+        serializedVersion: 2
+        x: 391
+        y: 102
+        width: 62
+        height: 138
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - serializedVersion: 2
+      name: sword-sprite-png copy_14
+      rect:
+        serializedVersion: 2
+        x: 453
+        y: 104
+        width: 48
+        height: 153
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - serializedVersion: 2
+      name: sword-sprite-png copy_15
+      rect:
+        serializedVersion: 2
+        x: 551
+        y: 21
+        width: 46
+        height: 153
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - serializedVersion: 2
+      name: sword-sprite-png copy_16
+      rect:
+        serializedVersion: 2
+        x: 633
+        y: 119
+        width: 46
+        height: 153
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - serializedVersion: 2
+      name: sword-sprite-png copy_17
+      rect:
+        serializedVersion: 2
+        x: 692
+        y: 104
+        width: 49
+        height: 154
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - serializedVersion: 2
+      name: sword-sprite-png copy_18
+      rect:
+        serializedVersion: 2
+        x: 790
+        y: 23
+        width: 46
+        height: 152
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - serializedVersion: 2
+      name: sword-sprite-png copy_19
+      rect:
+        serializedVersion: 2
+        x: 872
+        y: 121
+        width: 47
+        height: 152
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
