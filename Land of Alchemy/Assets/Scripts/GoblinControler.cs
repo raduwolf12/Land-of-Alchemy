@@ -23,6 +23,9 @@ public class GoblinControler : MonoBehaviour
     float maxX = 0;
     float maxY = 0;
 
+    float minX = 0;
+    float minY = 0;
+
     float StartX = 0;
     float StartY = 0;
 
@@ -37,8 +40,12 @@ public class GoblinControler : MonoBehaviour
 
         StartX = transform.position[0];
         StartY = transform.position[1];
-        maxX = StartX + 3;
-        maxY = StartY + 3;
+
+        maxX = StartX + 10;
+        maxY = StartY + 10;
+
+        minX = StartX - 10;
+        minY = StartY - 10;
 
     }
     void Update()
@@ -77,7 +84,15 @@ public class GoblinControler : MonoBehaviour
                 float curentX =  transform.position[0];
                 float curentY = transform.position[1];
 
-                //if (getX + curentX > maxX)
+                if (getX + curentX < maxX && getX + curentX>minX)
+                {
+                    moveDirection = new Vector3(getX * moveSpeed, getY * moveSpeed, 0f);
+                }
+                else
+                {
+                    moveDirection = new Vector3(getX * moveSpeed, getY * moveSpeed, 0f);
+                    
+                }
                 //{
                 //    if (getY + curentY > maxY)
                 //    {
@@ -105,7 +120,7 @@ public class GoblinControler : MonoBehaviour
                 ////}
                 //else 
                 //{
-                    moveDirection = new Vector3(getX * moveSpeed, getY * moveSpeed, 0f);
+                //moveDirection = new Vector3(getX * moveSpeed, getY * moveSpeed, 0f);
 
                 //}
 
@@ -129,16 +144,16 @@ public class GoblinControler : MonoBehaviour
 
     void OnCollisionEnter2D(Collision2D other)
     {
-        anim.SetBool("GoblinMoving", false);
-        anim.SetBool("Attack", true);
-        moving = false;
+     
 
         /*
          //this code insta kill the player        */
         if (other.gameObject.name=="player")
         {
+            anim.SetBool("GoblinMoving", false);
+            anim.SetBool("Attack", true);
+            moving = false;
 
-     
 
             float x = other.contacts[0].point[0];
             float y = other.contacts[0].point[1];
@@ -160,11 +175,11 @@ public class GoblinControler : MonoBehaviour
             //reloading = true;
             //thePlayer = other.gameObject;
         }
-        if (other.gameObject.name == "warp")
-        {
-            moveDirection = new Vector3(-getX * moveSpeed, getY * moveSpeed, 0f);
-            print("da");
-        }
+        //if (other.gameObject.name == "warp")
+        //{
+        //    moveDirection = new Vector3(-getX * moveSpeed, getY * moveSpeed, 0f);
+        //    print("da");
+        //}
 
 
     }
