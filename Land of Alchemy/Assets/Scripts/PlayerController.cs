@@ -4,7 +4,7 @@ using System.Collections;
 public class PlayerController : MonoBehaviour {
 
     public float moveSpeed;
-    private float curentMoveSpeed;
+    public float curentMoveSpeed;
     public float diagonalMoveModifier;
 
     private Animator anim;
